@@ -41,7 +41,12 @@ main {
   margin-top : 150px;
 
   >section:first-child span {
-        
+    font-family: 'title';
+    font-weight: bold;
+    font-size: 34px;
+    position: relative;
+    top : 5%;
+    line-height: 12px;
   }
 }
 
