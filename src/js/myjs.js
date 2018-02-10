@@ -18,10 +18,10 @@ $(function() {
         var checkTheAnswer = $('input[name=q'+(1+i)+']:checked', 'form').val();
         if (checkTheAnswer === correctAnswers[i]) {
           cardFooterP.eq(i).css("color", "green");
-          cardFooterImg.eq(i).attr("src", "../img/vrai.jpg");
+          cardFooterImg.eq(i).attr("src", "../src/img/vrai.jpg");
         } else {
           cardFooterP.eq(i).css("color", "red");
-          cardFooterImg.eq(i).attr("src", "../img/faux.jpg");
+          cardFooterImg.eq(i).attr("src", "../src/img/faux.jpg");
         }
       }
 
